@@ -1,0 +1,23 @@
+{
+  "name": "calculador-edades",
+  "version": "1.0.0",
+  "description": "Agregamos libreria de estilos al ejercicio 6",
+  "main": "Tarea1-clase6-nc.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolascarrica/calculador-edades.git"
+  },
+  "author": "Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolascarrica/calculador-edades/issues"
+  },
+  "homepage": "https://github.com/nicolascarrica/calculador-edades#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
