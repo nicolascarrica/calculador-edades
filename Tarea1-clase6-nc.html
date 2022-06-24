@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="tarea1-clase6-nc.css"/>
+    <title>Tarea Clase 6 - Calculador de edades</title>
+</head>
+<body>
+<div>
+    <h3>Calculador de edades para r/argentina programa</h3>
+</div>
+
+<form id="formulario-integrantes">
+    <div class="row g-3 align-items-center">
+        <div class="col-auto">
+            <label for="cantidad-integrantes" class="col-form-label">Ingresa la cantidad de integrantes</label>       
+        </div> 
+        <div class="col-auto">    
+            <input type="number" name="cantidad-integrantes" id="cantidad-integrantes" class="form-control"/>
+        </div> 
+        <div class="col-auto">
+            <span class="form-text"> Ingresa al menos un numero </span>     
+        </div>        
+    </div>
+    <button type="submit" class="btn btn-success" id="siguiente-paso">Siguiente</button>
+</form>   
+
+<form id="formulario-edades">
+    <div id="contenedor-edades"> </div>
+    
+
+    <button type="submit" id="calcular" class="oculto ">Calcular Edades</button>
+</form>
+
+    <div id="analisis" class="oculto">
+        <p class="h6">La mayor edad ingresada es: <srtrong id="mayor-edad"></srtrong></p>
+        <p class="h6">La menor edad ingresada es: <srtrong id="menor-edad"></srtrong></p>
+        <p class="h6">El promedio de las edades es: <srtrong id="promedio-edad"></srtrong></p>
+    </div>
+
+    
+<button type="reset" class="btn btn-secondary" id="resetear">Resetear</button>
+
+
+<script type="text/javascript" src="calculos-tarea1-cl6.js"></script>
+<script type="text/javascript" src="validaciones-tarea1-cl6.js"></script>
+<script type="text/javascript" src="pruebas-tarea1-cl6.js"></script>
+<script type="text/javascript" src="Tarea1-clase6-nc.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.oculto{
+    display: none;
+}
+
+body {
+    background-color: #c7c7c7;
+}
+
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+div {
+    color: black;
+} 
+
+.error {
+    border: 2px solid red;
+    
+}
+
+.form-text{ 
+    color: black;
+
+}
