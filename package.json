@@ -4,6 +4,8 @@
   "description": "Agregamos libreria de estilos al ejercicio 6",
   "main": "Tarea1-clase6-nc.html",
   "scripts": {
+    "cypress-run": "cypress run",
+    "cypress-dev": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "dependencies": {
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.3.0"
   }
 }
